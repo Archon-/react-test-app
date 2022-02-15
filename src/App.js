@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { Link } from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Link to="/about">About</Link>
       </header>
     </div>
   );
